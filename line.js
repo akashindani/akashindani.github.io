@@ -384,7 +384,7 @@ d3.csv(file, function(error, data) {
                      .duration(200)
                      .style("opacity", .9);
                      div_2.html("<p class='tooltip-p'>"+"Week "+ d.week + " - " + d.date+"</p>" +"<p class='tooltip-p'>" + d.home_team + " (H) vs. "+ d.away_team+ " (A)" + "<p class='tooltip-p'>"
-                                + "<p class='tooltip-p'>" + d.home_goals + " - " + d.away_goals + "</p>" + "<p class='tooltip-p'>" +"Total Points for asd" + d.name+
+                                + "<p class='tooltip-p'>" + d.home_goals + " - " + d.away_goals + "</p>" + "<p class='tooltip-p'>" +"Total Points for abc" + d.name+
                                 " : "+ d.points+"</p>")
                         .style("left", (d3.event.pageX) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
