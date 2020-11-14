@@ -14,13 +14,7 @@
     function init() {
       // initialize controller variables
       ctrl.seasons_network = [
-        "2014-2015",
-        "2013-2014",
-        "2012-2013",
-        "2011-2012",
-        "2010-2011",
-        "2009-2010",
-        "2008-2009"
+        "2016-2017"
       ];
       ctrl.seasonSelected_network = ctrl.seasons_network[0];
       ctrl.selectSeason_network = selectSeason_network;
@@ -32,13 +26,7 @@
       //Line Chart 
       // initialize controller variables
       ctrl.seasons_line = [
-        "2014-2015",
-        "2013-2014",
-        "2012-2013",
-        "2011-2012",
-        "2010-2011",
-        "2009-2010",
-        "2008-2009"
+        "2016-2017"
       ];
       ctrl.seasonSelected_line = ctrl.seasons_line[0];
       ctrl.selectSeason_line = selectSeason_line;
