@@ -14,6 +14,7 @@
     function init() {
       // initialize controller variables
       ctrl.seasons_network = [
+        "england",
         "2016-2017"
       ];
       ctrl.seasonSelected_network = ctrl.seasons_network[0];
@@ -26,6 +27,7 @@
       //Line Chart 
       // initialize controller variables
       ctrl.seasons_line = [
+        "england",
         "2016-2017"
       ];
       ctrl.seasonSelected_line = ctrl.seasons_line[0];
