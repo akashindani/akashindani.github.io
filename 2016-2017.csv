@@ -1,0 +1,103 @@
+,home_team,home_goals,away_team,away_goals,date2,team,week,points
+0,Iceland,1,Portugal,1,2016-06-14 19:00:00,Portugal,1,1
+1,Portugal,0,Austria,0,2016-06-18 19:00:00,Portugal,2,2
+2,Hungary,3,Portugal,3,2016-06-22 16:00:00,Portugal,3,3
+3,Portugal,0,Croatia,0,2016-06-25 19:00:00,Portugal,0,6
+4,Portugal,6,Poland,4,2016-06-30 19:00:00,Portugal,0,9
+5,Wales,0,Portugal,2,2016-07-06 19:00:00,Portugal,0,12
+6,Portugal,0,France,0,2016-07-10 19:00:00,Portugal,0,15
+7,Romania,1,France,2,2016-06-10 19:00:00,France,1,3
+8,France,2,Albania,0,2016-06-15 19:00:00,France,2,6
+9,Switzerland,0,France,0,2016-06-19 19:00:00,France,3,7
+10,Republic of Ireland,1,France,2,2016-06-26 13:00:00,France,0,10
+11,Iceland,2,France,5,2016-07-03 19:00:00,France,0,13
+12,Germany,0,France,2,2016-07-07 19:00:00,France,0,16
+13,Portugal,0,France,0,2016-07-10 19:00:00,France,0,16
+14,Germany,2,Ukraine,0,2016-06-12 19:00:00,Germany,1,3
+15,Germany,0,Poland,0,2016-06-16 19:00:00,Germany,2,4
+16,Germany,1,Northern Ireland,0,2016-06-21 16:00:00,Germany,3,7
+17,Germany,3,Slovakia,0,2016-06-26 16:00:00,Germany,0,10
+18,Germany,7,Italy,6,2016-07-02 19:00:00,Germany,0,13
+19,Germany,0,France,2,2016-07-07 19:00:00,Germany,0,13
+20,Wales,2,Slovakia,1,2016-06-11 16:00:00,Wales,1,3
+21,Wales,1,England,2,2016-06-16 13:00:00,Wales,2,3
+22,Russia,0,Wales,3,2016-06-20 19:00:00,Wales,3,6
+23,Wales,1,Northern Ireland,0,2016-06-25 16:00:00,Wales,0,9
+24,Wales,3,Belgium,1,2016-07-01 19:00:00,Wales,0,12
+25,Wales,0,Portugal,2,2016-07-06 19:00:00,Wales,0,12
+26,Iceland,1,Portugal,1,2016-06-14 19:00:00,Iceland,1,1
+27,Iceland,1,Hungary,1,2016-06-18 16:00:00,Iceland,2,2
+28,Iceland,2,Austria,1,2016-06-22 16:00:00,Iceland,3,5
+29,Iceland,2,England,1,2016-06-27 19:00:00,Iceland,0,8
+30,Iceland,2,France,5,2016-07-03 19:00:00,Iceland,0,8
+31,Belgium,0,Italy,2,2016-06-13 19:00:00,Italy,1,3
+32,Sweden,0,Italy,1,2016-06-17 13:00:00,Italy,2,6
+33,Republic of Ireland,1,Italy,0,2016-06-22 19:00:00,Italy,3,6
+34,Spain,0,Italy,2,2016-06-27 16:00:00,Italy,0,9
+35,Germany,7,Italy,6,2016-07-02 19:00:00,Italy,0,9
+36,Belgium,0,Italy,2,2016-06-13 19:00:00,Belgium,1,0
+37,Republic of Ireland,0,Belgium,3,2016-06-18 13:00:00,Belgium,2,3
+38,Sweden,0,Belgium,1,2016-06-22 19:00:00,Belgium,3,6
+39,Hungary,0,Belgium,4,2016-06-26 19:00:00,Belgium,0,9
+40,Wales,3,Belgium,1,2016-07-01 19:00:00,Belgium,0,9
+41,Northern Ireland,0,Poland,1,2016-06-12 16:00:00,Poland,1,3
+42,Germany,0,Poland,0,2016-06-16 19:00:00,Poland,2,4
+43,Ukraine,0,Poland,1,2016-06-21 16:00:00,Poland,3,7
+44,Switzerland,5,Poland,6,2016-06-25 13:00:00,Poland,0,10
+45,Portugal,6,Poland,4,2016-06-30 19:00:00,Poland,0,10
+46,Russia,1,England,1,2016-06-11 19:00:00,England,1,1
+47,Wales,1,England,2,2016-06-16 13:00:00,England,2,4
+48,England,0,Slovakia,0,2016-06-20 19:00:00,England,3,5
+49,Iceland,2,England,1,2016-06-27 19:00:00,England,0,5
+50,Czech Republic,0,Spain,1,2016-06-13 13:00:00,Spain,1,3
+51,Turkey,0,Spain,3,2016-06-17 19:00:00,Spain,2,6
+52,Croatia,2,Spain,1,2016-06-21 19:00:00,Spain,3,6
+53,Spain,0,Italy,2,2016-06-27 16:00:00,Spain,0,6
+54,Hungary,2,Austria,0,2016-06-14 16:00:00,Hungary,1,3
+55,Iceland,1,Hungary,1,2016-06-18 16:00:00,Hungary,2,4
+56,Hungary,3,Portugal,3,2016-06-22 16:00:00,Hungary,3,5
+57,Hungary,0,Belgium,4,2016-06-26 19:00:00,Hungary,0,5
+58,Wales,2,Slovakia,1,2016-06-11 16:00:00,Slovakia,1,0
+59,Russia,1,Slovakia,2,2016-06-15 13:00:00,Slovakia,2,3
+60,England,0,Slovakia,0,2016-06-20 19:00:00,Slovakia,3,4
+61,Germany,3,Slovakia,0,2016-06-26 16:00:00,Slovakia,0,4
+62,Sweden,1,Republic of Ireland,1,2016-06-13 16:00:00,Republic of Ireland,1,1
+63,Republic of Ireland,0,Belgium,3,2016-06-18 13:00:00,Republic of Ireland,2,1
+64,Republic of Ireland,1,Italy,0,2016-06-22 19:00:00,Republic of Ireland,3,4
+65,Republic of Ireland,1,France,2,2016-06-26 13:00:00,Republic of Ireland,0,4
+66,Turkey,0,Croatia,1,2016-06-12 13:00:00,Croatia,1,3
+67,Czech Republic,2,Croatia,2,2016-06-17 16:00:00,Croatia,2,4
+68,Croatia,2,Spain,1,2016-06-21 19:00:00,Croatia,3,7
+69,Portugal,0,Croatia,0,2016-06-25 19:00:00,Croatia,0,7
+70,Northern Ireland,0,Poland,1,2016-06-12 16:00:00,Northern Ireland,1,0
+71,Northern Ireland,2,Ukraine,0,2016-06-16 16:00:00,Northern Ireland,2,3
+72,Germany,1,Northern Ireland,0,2016-06-21 16:00:00,Northern Ireland,3,3
+73,Wales,1,Northern Ireland,0,2016-06-25 16:00:00,Northern Ireland,0,3
+74,Switzerland,1,Albania,0,2016-06-11 13:00:00,Switzerland,1,3
+75,Romania,1,Switzerland,1,2016-06-15 16:00:00,Switzerland,2,4
+76,Switzerland,0,France,0,2016-06-19 19:00:00,Switzerland,3,5
+77,Switzerland,5,Poland,6,2016-06-25 13:00:00,Switzerland,0,5
+78,Sweden,1,Republic of Ireland,1,2016-06-13 16:00:00,Sweden,1,1
+79,Sweden,0,Italy,1,2016-06-17 13:00:00,Sweden,2,1
+80,Sweden,0,Belgium,1,2016-06-22 19:00:00,Sweden,3,1
+81,Hungary,2,Austria,0,2016-06-14 16:00:00,Austria,1,0
+82,Portugal,0,Austria,0,2016-06-18 19:00:00,Austria,2,1
+83,Iceland,2,Austria,1,2016-06-22 16:00:00,Austria,3,1
+84,Turkey,0,Croatia,1,2016-06-12 13:00:00,Turkey,1,0
+85,Turkey,0,Spain,3,2016-06-17 19:00:00,Turkey,2,0
+86,Turkey,2,Czech Republic,0,2016-06-21 19:00:00,Turkey,3,3
+87,Czech Republic,0,Spain,1,2016-06-13 13:00:00,Czech Republic,1,0
+88,Czech Republic,2,Croatia,2,2016-06-17 16:00:00,Czech Republic,2,1
+89,Turkey,2,Czech Republic,0,2016-06-21 19:00:00,Czech Republic,3,1
+90,Germany,2,Ukraine,0,2016-06-12 19:00:00,Ukraine,1,0
+91,Northern Ireland,2,Ukraine,0,2016-06-16 16:00:00,Ukraine,2,0
+92,Ukraine,0,Poland,1,2016-06-21 16:00:00,Ukraine,3,0
+93,Russia,1,England,1,2016-06-11 19:00:00,Russia,1,1
+94,Russia,1,Slovakia,2,2016-06-15 13:00:00,Russia,2,1
+95,Russia,0,Wales,3,2016-06-20 19:00:00,Russia,3,1
+96,Romania,1,France,2,2016-06-10 19:00:00,Romania,1,0
+97,Romania,1,Switzerland,1,2016-06-15 16:00:00,Romania,2,1
+98,Romania,0,Albania,1,2016-06-19 19:00:00,Romania,3,1
+99,Switzerland,1,Albania,0,2016-06-11 13:00:00,Albania,1,0
+100,France,2,Albania,0,2016-06-15 19:00:00,Albania,2,0
+101,Romania,0,Albania,1,2016-06-19 19:00:00,Albania,3,3
