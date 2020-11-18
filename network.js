@@ -52,7 +52,7 @@ var force = d3.layout.force()
     // .on('tick', tick)
     .start();
 */
-	
+console.log(nodes)	
 var force = d3.forceSimulation(nodes)
                 .force('center', d3.forceCenter(width/2,height/2))
                 .force('collisions', d3.forceCollide(d => d.group ))
