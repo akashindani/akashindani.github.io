@@ -15,7 +15,7 @@
       // initialize controller variables
       ctrl.seasons_network = [
         "england",
-        "2016-2017"
+        "spain"
       ];
       ctrl.seasonSelected_network = ctrl.seasons_network[0];
       ctrl.selectSeason_network = selectSeason_network;
@@ -28,7 +28,7 @@
       // initialize controller variables
       ctrl.seasons_line = [
         "england",
-        "2016-2017"
+        "spain"
       ];
       ctrl.seasonSelected_line = ctrl.seasons_line[0];
       ctrl.selectSeason_line = selectSeason_line;
