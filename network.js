@@ -37,18 +37,28 @@ var div = d3.select("body").append("div")
 //      .attr("class", "tooltip")
 //      .style("opacity", 0);
 
+
 /* Set and Start the force layout */
+/*
 var force = d3.layout.force()
     .nodes(graph.nodes)
     .links(graph.links)
     .gravity(.05)
-    .distance(400)
+    .distance(200)
     .charge(-100)
     .friction(0.001)
     // .linkDistance(100)
     .size([width, height])
     // .on('tick', tick)
     .start();
+*/
+	
+var force = d3.forceSimulation(nodes)
+                .force('center', d3.forceCenter(width/2,height/2))
+                .force('collisions', d3.forceCollide(d => d.group ))
+                .force('charge', d3.forceManyBody())  // .strength(d =>  -d.group  )
+                .force('links', d3.forceLink().links(arcs).id(d => d.index).distance(d => d.value + 3) )
+                .on('tick', ticked);
 
 /* Add the links to the graph */
 var link = svg.selectAll(".link")
