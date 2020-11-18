@@ -47,7 +47,7 @@ var force = d3.layout.force()
     .distance(200)
     .charge(-100)
     .friction(0.001)
-    .linkDistance(100)
+    .linkDistance(300)
     .size([width, height])
     // .on('tick', tick)
     .start();
