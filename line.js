@@ -187,6 +187,7 @@ d3.csv(file, function(error, data) {
                   .style("text-anchor", "middle")
                   .style("font", "10px sans-serif")
                   .attr("dy", "-2.6em");
+		/*		  
         weeklyAxis.append("text")
                   .text(maxP + "p")
                   .style("color", "#FFF")
@@ -200,6 +201,7 @@ d3.csv(file, function(error, data) {
                   .style("font", "10px sans-serif")
                   .attr("y", height)
                   .attr("dy", "2em");
+		*/
   }
 
 
