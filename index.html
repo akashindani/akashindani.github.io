@@ -197,8 +197,13 @@
 				<section id="performance" class="page" ng-app="mainApp" ng-controller="MainCtrl as chart">
                 <a name="performance"></a>
                   <div class="content">
+				  
+					
+					
 
                     <div class="row" style="background-color:#F0F0F0; padding-bottom: 6em;">
+						
+						
                         <div class="icon-top-title center">
                           <h2 style="margin-top:3em;">Team Progression during the Season<br></br></h2>
                           <p style="margin-left:6em;margin-right:6em;">All 20 teams in the Premier League, play every other team twice every season, playing a total of 38 matches. Every team plays one match every week. A win earns a team 3 points, a draw earns both the teams 1 point and a loss does not earn any point. At the end of 38 weeks, the team with the maximum number of points wins the League. Different teams perform differently in the league. The better teams perform consistently throughout the year, while some teams perform extremely well for one half of the year, but manage to loose in the other half. Also, due to the highly unpredictable nature of the league, any team can win or lose at any time. Therefore, looking at how teams perform throughout the year, can provide some interesting insights about the league.</p>
@@ -206,19 +211,38 @@
                           <h3>Below is a visualization showcasing the team performance as the League progresses.</h3>
                                     <p style="margin-left:6em;margin-right:6em;">Select the season from the dropdown to view the team performances for that season. Hover on a team to view its performance in the season. The horizontal axis represents the 38 weeks in the tournament. The vertical axis represents the maximum and the minimum points scored by any team in that week. Each line represents a team, showcasing its performance throughout the year.</p>
                         </div>
-
+						
+						<!--
                         <div class="col-md-12 center">
                             <div id="line_viz">
                               <div >
                                 <h3>Select Year:
-                                  <!--Binds options to radar.examples. Binds selected item to example selected. Fires change method with the selected example.-->
+                                  Binds options to radar.examples. Binds selected item to example selected. Fires change method with the selected example.
                                   <select ng-options="example for example in chart.seasons_line" ng-model="chart.seasonSelected_line" ng-change="chart.selectSeason_line(chart.seasonSelected_line)"></select>
                                 </h3>
                               </div>
                               </div>
-                        <!-- row -->
-                        </div>
-                        <!-- row -->
+                      
+                        </div> -->
+						
+						<!-- New code by reek -->
+						
+						<div class="viewof-dataFileName"></div>
+						<div class="viewof-drawingStyle"></div>
+						<div class="chart"></div>
+						<p>Credit: <a href="https://observablehq.com/@rmajumd/final-lines-with-bumps-v1-2">Final Lines with bumps v1.2 by Reek Majumder</a></p>
+
+						<script type="module">
+						import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+						import define from "https://api.observablehq.com/@rmajumd/final-lines-with-bumps-v1-2.js?v=3";
+						(new Runtime).module(define, name => {
+						  if (name === "viewof dataFileName") return Inspector.into(".viewof-dataFileName")();
+						  if (name === "viewof drawingStyle") return Inspector.into(".viewof-drawingStyle")();
+						  if (name === "chart") return Inspector.into(".chart")();
+						  return ["data","gameweek","teams","chartData","bx1","bx","ax","ranking","width","height","color","by","a","right","y","lef","left"].includes(name) || null;
+						});
+						</script>
+						
 
                     </div>
 
