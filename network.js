@@ -40,7 +40,8 @@ var div = d3.select("body").append("div")
 
 /* Set and Start the force layout */
 
-var force = d3.layout.force('center', d3.forceCenter(height, width))
+/*
+var force = d3.layout.force()
     .nodes(graph.nodes)
     .links(graph.links)
     .gravity(.4)
@@ -52,15 +53,16 @@ var force = d3.layout.force('center', d3.forceCenter(height, width))
     // .on('tick', tick)
     .start();
 
-/*
-console.log(nodes)	
-var force = d3.forceSimulation(nodes)
-                .force('center', d3.forceCenter(width/2,height/2))
-                .force('collisions', d3.forceCollide(5)
-                .force('charge', d3.forceManyBody())  // .strength(d =>  -d.group  )
-                .force('links', d3.forceLink().links(links).id(d => d.index).distance(d => d.value + 3) )
-                .on('tick', ticked);
 */
+
+console.log(nodes)	
+var force = d3.forceSimulation(graph.nodes)
+                .force('center', d3.forceCenter(width/2,height/2))
+                .force("charge", d3.forceManyBody())
+                .force('collisions', d3.forceCollide(d => d.r))
+                .force('links', d3.forceLink(graph.links))
+                //.on('tick', ticked)
+
 /* Add the links to the graph */
 var link = svg.selectAll(".link")
     .data(graph.links)
