@@ -55,7 +55,6 @@ var force = d3.layout.force()
 
 */
 
-console.log(nodes)	
 var force = d3.forceSimulation(graph.nodes)
                 .force('center', d3.forceCenter(width/2,height/2))
                 .force("charge", d3.forceManyBody())
