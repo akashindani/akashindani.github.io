@@ -41,6 +41,7 @@ var div = d3.select("body").append("div")
 /* Set and Start the force layout */
 
 var force = d3.layout.force()
+	.force('center', d3.forceCenter(height, width))
     .nodes(graph.nodes)
     .links(graph.links)
     .gravity(.4)
