@@ -34,7 +34,7 @@ var div = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 /*define to recenter selected node */
-//var g = svg.append("g")
+var g = svg.append("g")
 //      .attr("class", "tooltip")
 //      .style("opacity", 0);
 
@@ -224,18 +224,23 @@ var node = svg.selectAll(".node")
 
                 });
 				
+				g.transition()
+					.duration(750)
+					.attr("transform", "translate(" + "500" + "," + "300" + ")");
+				
+				/*
 				node.attr('transform', function(o) {
 					
-					/* Move the selected node to center*/
+					//Move the selected node to center
 					//var new_x=0,
 					//	new_y=0;
-					o.x = 500;
-					o.y = 300;
+					x = 500;
+					y = 300;
 					
-					console.log(o)
-					return 'translate(' + o.x + ',' + o.y + ')';
+					//console.log(o)
+					return 'translate(' + x + ',' + y + ')';
 				  });
-				
+				*/
 				
 
               })
