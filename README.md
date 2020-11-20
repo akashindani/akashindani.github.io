@@ -20,8 +20,11 @@ https://github.com/akashindani/akashindani.github.io/blob/main/data_preprocessin
 https://github.com/akashindani/akashindani.github.io/blob/main/data_preprocessing/data_viz.ipynb
 
 Some more tried visualizations:
-1. Soccer field (https://observablehq.com/d/d3d723951739204f).
-2. Older version of line graph (without circle colors as match win, draw or loose) https://observablehq.com/@rmajumd/final-lines-with-bumps-v1-2
+1. Relative team performance line graph (https://akashindani.github.io/index_new.html)
+2. Soccer field (https://observablehq.com/d/d3d723951739204f).
+
+Planning to do:
+1. Line graph with adding colors of win, draw and loose to the bumps. 
 
 References:
 1. Data and insights to data
