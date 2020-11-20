@@ -222,7 +222,7 @@ var node = svg.selectAll(".node")
 
                     }
 
-                }
+                });
 				
 				/* Move the selected node to center*/
 				var new_x=0,
@@ -233,7 +233,6 @@ var node = svg.selectAll(".node")
 			     .duration(750)
 			     .attr("transform", "translate(" + new_x + "," + new_y + ")");
 				
-				);
 
               })
               .on('mouseout', function(d){
