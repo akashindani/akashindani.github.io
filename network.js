@@ -46,7 +46,7 @@ var force = d3.layout.force()
     .links(graph.links)
     .gravity(.3)
     .distance(200)
-    .charge(-150)
+    .charge(-300)
     .friction(0.001)
     //.linkDistance(300)
     .size([width, height])
@@ -173,6 +173,9 @@ var node = svg.selectAll(".node")
                       var sel = d3.select(this);
                       sel.moveToFront();
                       node.moveToFront();
+					  /* Move the selected node to center*/
+					  node[0].x = width / 2;
+					  node[0].y = height / 2;
                       return 1;
                     }
                     else{
