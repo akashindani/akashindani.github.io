@@ -154,14 +154,12 @@ d3.csv(file, function(error, data) {
         .range([height, 0]);
 	
 	
-    //var maxP = d3.max(weeklyPoints[key]);
-    //var minP = d3.min(weeklyPoints[key]);
-	var maxP = 20
-	var minP = 1
+    var maxP = d3.max(weeklyPoints[key]);
+    var minP = d3.min(weeklyPoints[key]);
 
     y_Scale.domain([
-        minP,
-        maxP
+        1,
+        20
     ]);
 
     var pointDifference = maxP - minP + 1;
