@@ -166,6 +166,11 @@ var node = svg.selectAll(".node")
      .style("stroke", "#000")
      .on("dblclick", function(d){
                 d = d3.select(this).node().__data__;
+				/* Move the selected node to center*/
+				console.log("previous", d);
+				d.x = width / 2;
+				d.y = height / 2;
+				console.log("After",d);
                 link.style("opacity", function (o) {
                     if(d.index==o.source.index | d.index==o.target.index)
                     {
@@ -173,10 +178,6 @@ var node = svg.selectAll(".node")
                       var sel = d3.select(this);
                       sel.moveToFront();
                       node.moveToFront();
-					  /* Move the selected node to center*/
-					  console.log(d)
-					  d.x = width / 2;
-					  d.y = height / 2;
                       return 1;
                     }
                     else{
