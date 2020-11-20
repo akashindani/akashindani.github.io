@@ -232,7 +232,7 @@ var node = svg.selectAll(".node")
 					o.x = 500;
 					o.y = 300;
 					
-					console(o)
+					console.log(o)
 					return 'translate(' + o.x + ',' + o.y + ')';
 				  });
 				
