@@ -19,6 +19,10 @@ https://github.com/akashindani/akashindani.github.io/blob/main/data_preprocessin
 2. For generating a flat csv from match events of england and spain json files. This is for network graph.
 https://github.com/akashindani/akashindani.github.io/blob/main/data_preprocessing/data_viz.ipynb
 
+Some more tried visualizations:
+1. Soccer field (https://observablehq.com/d/d3d723951739204f).
+2. Older version of line graph (without circle colors as match win, draw or loose) https://observablehq.com/@rmajumd/final-lines-with-bumps-v1-2
+
 References:
 1. Data and insights to data
 Pappalardo et al. (2019) PlayeRank: Data-driven Performance Evaluation and Player Ranking in Soccer via a Machine Learning Approach. ACM Transactions on Intellingent Systems and Technologies (TIST) 10, 5, Article 59 (September 2019), 27 pages. DOI: https://doi.org/10.1145/3343172
