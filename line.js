@@ -158,8 +158,8 @@ d3.csv(file, function(error, data) {
     var minP = d3.min(weeklyPoints[key]);
 
     y_Scale.domain([
-        1,
-        20
+        minP,
+        maxP
     ]);
 
     var pointDifference = maxP - minP + 1;
@@ -187,8 +187,7 @@ d3.csv(file, function(error, data) {
                   .style("color", "#FFF")
                   .style("text-anchor", "middle")
                   .style("font", "10px sans-serif")
-                  .attr("dy", "-2.6em");
-		/*		  
+                  .attr("dy", "-2.6em");		  
         weeklyAxis.append("text")
                   .text(maxP + "p")
                   .style("color", "#FFF")
@@ -202,7 +201,6 @@ d3.csv(file, function(error, data) {
                   .style("font", "10px sans-serif")
                   .attr("y", height)
                   .attr("dy", "2em");
-		*/
   }
 
 
