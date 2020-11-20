@@ -33,7 +33,8 @@ var borderPath = svg.append("rect")
 var div = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
-// var div = svg.append("div")
+/*define to recenter selected node */
+var g = svg.append("g")
 //      .attr("class", "tooltip")
 //      .style("opacity", 0);
 
@@ -166,11 +167,7 @@ var node = svg.selectAll(".node")
      .style("stroke", "#000")
      .on("dblclick", function(d){
                 d = d3.select(this).node().__data__;
-				/* Move the selected node to center*/
-				console.log("previous", d);
-				d.x = width / 2;
-				d.y = height / 2;
-				console.log("After",d);
+				
                 link.style("opacity", function (o) {
                     if(d.index==o.source.index | d.index==o.target.index)
                     {
@@ -225,7 +222,18 @@ var node = svg.selectAll(".node")
 
                     }
 
-                });
+                }
+				
+				/* Move the selected node to center*/
+				var new_x=0,
+					new_y=0;
+				new_x = width / 2;
+				new_y = height / 2;
+				g.transition()
+			     .duration(750)
+			     .attr("transform", "translate(" + new_x + "," + new_y + ")");
+				
+				);
 
               })
               .on('mouseout', function(d){
