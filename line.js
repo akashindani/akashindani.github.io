@@ -152,9 +152,12 @@ d3.csv(file, function(error, data) {
   {
     var y_Scale = d3.scale.linear()
         .range([height, 0]);
-
-    var maxP = d3.max(weeklyPoints[key]);
-    var minP = d3.min(weeklyPoints[key]);
+	
+	
+    //var maxP = d3.max(weeklyPoints[key]);
+    //var minP = d3.min(weeklyPoints[key]);
+	var maxP = 20
+	var minP = 1
 
     y_Scale.domain([
         minP,
