@@ -174,8 +174,9 @@ var node = svg.selectAll(".node")
                       sel.moveToFront();
                       node.moveToFront();
 					  /* Move the selected node to center*/
-					  node[0].x = width / 2;
-					  node[0].y = height / 2;
+					  console.log(d)
+					  d.x = width / 2;
+					  d.y = height / 2;
                       return 1;
                     }
                     else{
