@@ -151,12 +151,12 @@
                 <div class="icon-top-title center">
 
                   <h2 style="margin-top:1.5em;">Premier League? LaLiga? Soccer?<br></br></h2>
-                  <h3>Exploring English Premier League through data.<br/>
-                      A guide to understanding soccer and the English Premier League.</h3>
+                  <h3>Exploring English Premier League and LaLiga through data.<br/>
+                      A guide to understanding soccer and EPL or LaLiga.</h3>
                 </div>
 
                 <div class="col-md-12 center">
-                    <p style="display:block;">.<br/>The English Premier League and LaLiga are the world’s most popular professional soccer leagues. Both the leagues involves 20 teams, each playing a total of 38 matches every season, hence totaling 380 matches per season, making it a very rich source of data. We took the data from figshare which provided us data of searson 2017-2018. The data set is available publicly at <a href="https://figshare.com/collections/Soccer_match_event_dataset/4415000">here</a>.<br/></p>
+                    <p style="display:block;">.<br/>The English Premier League and LaLiga are the world’s most popular professional soccer leagues. Both the leagues involves 20 teams, each playing a total of 38 matches every season, hence totaling 760 matches per season, making it a very rich source of data. We took the data from figshare which provided us data of season 2017-2018. The data set is available publicly at <a href="https://figshare.com/collections/Soccer_match_event_dataset/4415000">here</a>.<br/></p>
 
                     <p style="text-align: block;">As huge fans of the beautiful game of soccer and its different leagues, we are motivated to share our enthusiasm with others. The project hence aims at utilizing data to create rich visualizations to help understand soccer data more efficiently. We aim to create visualizations that would allow people to easily understand various data metrics and performance indicators in an interactive manner. With easy to understand and interactive visualizations, we aim to provide better insights about soccer and the league, like how do teams perform throughout seasons, how is it performing relative to other teams, etc.</p>
                     <article class="icon-box2">
@@ -215,10 +215,10 @@
 						-->
 						<div class="icon-top-title center">
                           <h2 style="margin-top:3em;">Team Progression during the Season<br></br></h2>
-                          <p style="margin-left:6em;margin-right:6em;">All 20 teams in the Premier League, play every other team twice every season, playing a total of 38 matches. Every team plays one match every week. A win earns a team 3 points, a draw earns both the teams 1 point and a loss does not earn any point. At the end of 38 weeks, the team with the maximum number of points wins the League. Different teams perform differently in the league. The better teams perform consistently throughout the year, while some teams perform extremely well for one half of the year, but manage to loose in the other half. Also, due to the highly unpredictable nature of the league, any team can win or lose at any time. Therefore, looking at how teams perform throughout the year, can provide some interesting insights about the league.</p>
+                          <p style="margin-left:6em;margin-right:6em;">All 20 teams in the League, play every other team twice every season, playing a total of 38 matches. Every team plays one match every week. A win earns a team 3 points, a draw earns both the teams 1 point and a loss does not earn any point. At the end of 38 weeks, the team with the maximum number of points wins the League. Different teams perform differently in the league. The better teams perform consistently throughout the year, while some teams perform extremely well for one half of the year, but manage to loose in the other half. Also, due to the highly unpredictable nature, any team can win or lose at any time. Therefore, looking at how teams perform throughout the year, can provide some interesting insights.</p>
 
-                          <h3>Below is a visualization showcasing the team performance as the League progresses.</h3>
-                                    <p style="margin-left:6em;margin-right:6em;">Select the league from the dropdown to view the team performances for that league. Also, you can select different types of visualization like compact and transit to show line graph. Hover on a points to see the scoreline of that match. The horizontal axis represents the 38 weeks in the tournament. The vertical axis represents the maximum and the minimum points scored by any team in that week. Each line represents a team, showcasing its performance throughout the year.</p>
+                          <h3>Below is a visualization showcasing the team performance as how the particular league progresses.</h3>
+                                    <p style="margin-left:6em;margin-right:6em;"><b>Select the league country(england or spain)</b> from the dropdown to view the team performances for that league. Also, you can select different types of visualization like <b>Compact and Track </b> to show line graph. Hover on a points to see the scoreline of that match. The horizontal axis represents the 38 weeks in the tournament. The vertical axis represents the maximum and the minimum points scored by any team in that week. Each line represents a team, showcasing its performance throughout the year.</p>
                         </div>
 						
 						<!--
@@ -236,10 +236,10 @@
 						-->
 						<!-- New code by reek -->
 						
-						<div class="viewof-dataFileName"><p align='center'> Select League: </p> </div> 
+						<div align='center' class="viewof-dataFileName"><p> Select League: </p> </div> 
 						<div align='center' class="viewof-drawingStyle"><p> Select Visualization type: </p></div>
 						<div align='center' class="chart"></div>
-						<!-- <p align='center'>Observable link: <a href="https://observablehq.com/@rmajumd/final-lines-with-bumps-v1-2">Final Lines with bumps v1.2 by Reek Majumder</a></p> -->
+						<p align='center'>Observable link: <a href="https://observablehq.com/@rmajumd/final-lines-with-bumps-v1-2">Observable by Reek Majumder</a></p>
 
 						<script type="module">
 						import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
@@ -259,7 +259,7 @@
                     <div class="row" style="background-color: #F9F9F9; padding-bottom: 6em;">
                         <div class="icon-top-title center">
                           <h2 style="margin-top:3em;">Relative Team Performance<br></br></h2>
-                          <p style="margin-left:6em;margin-right:6em;">In the leagues, teams have different Home and away performances, establishing patterns within the league. For example, Liverpool performed very well and was title contendor, but they performed poorly in away games which resulted on multiple loses and drawn matches (We can see that in the below graph by selecting Liverpool). Such interesting insights can be developed if one views the relative performaces of teams with respect to each other.</p>
+                          <p style="margin-left:6em;margin-right:6em;">In the leagues, teams have different Home and away performances, establishing patterns within the league. For example, Liverpool performed very well and was title contendor, but they performed poorly in away games by multiple loses and drawn matches (We can see that in the below graph by selecting Liverpool). Such interesting insights can be developed if one views the relative performaces of teams with respect to each other.</p>
                           <h3>Below is an interactive visualization that displays relative performace of teams of different leagues.</h3>
                           <p style="margin-left:6em;margin-right:6em;">Select the league from the drop down. <b> Double click </b> on a team to view its relative performance w.r.t other teams during that season. Click and drag any of the teams to view the data clearly, if not visible. Hover on lines/circles for more info.</p>
                         </div>
@@ -295,10 +295,10 @@
 					<footer>
 						<p>References: <br>
 						<ol>
-						<li><a href="https://observablehq.com/@rmajumd/final-lines-with-bumps-v1-2">Final Lines with bumps v1.2</a><p></p></li>
+						<!-- <li><a href="https://observablehq.com/@rmajumd/final-lines-with-bumps-v1-2">Final Lines with bumps v1.2</a><p></p></li> -->
+						<>
 						<li><a href="https://stackoverflow.com/questions/20249215/how-to-display-and-hide-links-and-nodes-when-clicking-on-a-node-in-d3-javascript">on double click</a><p></p></li>
 
-						<li><a href="https://stackoverflow.com/questions/20249215/how-to-display-and-hide-links-and-nodes-when-clicking-on-a-node-in-d3-javascript">on double click</a><p></p></li>
 						</ol>
 					</footer>
 				</div>
