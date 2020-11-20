@@ -76,7 +76,23 @@
                       
                         </div>
 
-						
+				<div>
+				<div class="viewof-dataFileName"></div>
+<div align="center" class="viewof-drawingStyle"></div>
+<div align="center" class="chart"></div>
+<p>Credit: <a href="https://observablehq.com/@rmajumd/final-lines-with-bumps-v1-2-1">Final Lines with bumps v1.2.1 by Reek Majumder</a></p>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@rmajumd/final-lines-with-bumps-v1-2-1.js?v=3";
+(new Runtime).module(define, name => {
+  if (name === "viewof dataFileName") return Inspector.into(".viewof-dataFileName")();
+  if (name === "viewof drawingStyle") return Inspector.into(".viewof-drawingStyle")();
+  if (name === "chart") return Inspector.into(".chart")();
+  return ["data","gameweek","teams","chartData","bx","ax","ranking","width","height","color","by","a","right","y","lef","left"].includes(name) || null;
+});
+</script>	
+			    </div>
 
 				
 						
