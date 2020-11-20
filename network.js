@@ -231,7 +231,8 @@ var node = svg.selectAll(".node")
 					//	new_y=0;
 					o.x = 500;
 					o.y = 300;
-				
+					
+					console(o)
 					return 'translate(' + o.x + ',' + o.y + ')';
 				  });
 				
