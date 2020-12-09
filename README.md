@@ -10,7 +10,8 @@ Links to your original dataset: https://figshare.com/collections/Soccer_match_ev
 Breakdown of how work was organized among the group members:
 1. Line graph with bumps - Primary: Reek Majumder, Secondary: Akash Indani
 2. Relative team performance network - Primary: Akash Indani, Secondary: Reek Majumder
-3. Webiste development and github maintainance - Akash Indani and Reek Majumder
+3. Website development and github maintainance - Akash Indani and Reek Majumder
+4. Report writing - Akash Indani and Reek Majumder
 
 Data preprocessing:
 1. For generating data for Line graph from json files to csv of spain and england match events.
