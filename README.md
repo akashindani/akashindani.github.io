@@ -9,6 +9,8 @@ Link to your original dataset: https://figshare.com/collections/Soccer_match_eve
 
 Link to final project report: https://github.com/akashindani/akashindani.github.io/blob/main/g05_final_project_report.pdf
 
+Link to video: https://clemson.box.com/s/bjedv77ipr3rdp2zoolxya6ehnz3k7jl
+
 Breakdown of how work was organized among the group members:
 1. Line graph with bumps - Primary: Reek Majumder, Secondary: Akash Indani
 2. Relative team performance network - Primary: Akash Indani, Secondary: Reek Majumder
