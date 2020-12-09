@@ -5,7 +5,9 @@ Group members: Akash Indani, Reek Majumder
 
 Link to your website: https://akashindani.github.io/
 
-Links to your original dataset: https://figshare.com/collections/Soccer_match_event_dataset/4415000
+Link to your original dataset: https://figshare.com/collections/Soccer_match_event_dataset/4415000
+
+Link to final project report: https://github.com/akashindani/akashindani.github.io/blob/main/g05_final_project_report.pdf
 
 Breakdown of how work was organized among the group members:
 1. Line graph with bumps - Primary: Reek Majumder, Secondary: Akash Indani
