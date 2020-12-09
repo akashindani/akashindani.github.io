@@ -12,6 +12,7 @@ Breakdown of how work was organized among the group members:
 2. Relative team performance network - Primary: Akash Indani, Secondary: Reek Majumder
 3. Website development and github maintainance - Akash Indani and Reek Majumder
 4. Report writing - Akash Indani and Reek Majumder
+5. Video creation - Akash Indani and Reek Majumder
 
 Data preprocessing:
 1. For generating data for Line graph from json files to csv of spain and england match events.
